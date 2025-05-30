@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tradições</title>
+  <link rel="stylesheet" href="style3.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Merriweather&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Início</a></li>
+      <li><a href="pag2.html">Lendas</a></li>
+      <li><a href="pag3.html">Tradições</a></li>
+      <li><a href="pag4.html">Sobre</a></li>
+    </ul>
+  </nav>
+  <br><br>
+   <h1>Tradições</h1>
+  <div class="container">
+  
+  <h2>
+    Festas Populares de Atibaia
+  </h2>
+  <p>
+    Atibaia é uma cidade rica em tradições e celebrações populares que revelam sua diversidade cultural e o forte vínculo com as raízes religiosas e comunitárias. Ao longo do ano, diferentes festas animam os bairros e o centro da cidade, reunindo moradores e visitantes em momentos de fé, alegria e identidade cultural.
+  </p>
+
+  <!-- Bloco 1 -->
+  <div class="bloco-tradicao">
+    <img src="img/festas de sao joao.jpeg" alt="Festa de São João e São Pedro">
+    <div>
+      <p><strong>Festa de São João e São Pedro:</strong> Celebradas com muita alegria no mês de junho, as festas juninas são uma das tradições culturais mais queridas de Atibaia e de todo o Brasil. Esses eventos reúnem pessoas de todas as idades em um ambiente de confraternização, música e sabores típicos.
+
+As praças, escolas, igrejas e comunidades se enchem de cores, com bandeirinhas penduradas, fogueiras acesas e músicas animadas que embalam as tradicionais quadrilhas — uma dança coletiva cheia de passos marcados, trajes caipiras e muita diversão.</p>
+    </div>
+  </div>
+
+  <!-- Bloco 2 -->
+  <div class="bloco-tradicao">
+    <img src="img/congada.jpg" alt="Congada">
+    <div>
+      <p><strong>Congada:</strong> A Congada é uma manifestação cultural e religiosa afro-brasileira que ocupa um lugar especial na tradição de Atibaia. Mais do que uma celebração, ela representa a fusão entre fé, resistência, ancestralidade e identidade cultural, sendo um verdadeiro patrimônio imaterial da cidade.
+
+Realizada anualmente, a Congada mistura elementos da religiosidade católica com as raízes africanas trazidas pelos povos escravizados. Durante a celebração, os participantes — conhecidos como congadeiros — desfilam pelas ruas usando trajes típicos, coloridos e cheios de significados</p>
+    </div>
+  </div>
+
+  <!-- Bloco 3 -->
+  <div class="bloco-tradicao">
+    <img src="img/festa do morango.jpg" alt="Festa das Flores e Morangos">
+    <div>
+      <p><strong>Festa das Flores e Morangos:</strong> A Festa de Flores e Morangos de Atibaia é um dos eventos mais tradicionais e aguardados da cidade, que celebra com muito orgulho a força da agricultura local, especialmente a produção de morangos, além da forte influência da cultura japonesa na região.
+
+Realizada anualmente, a festa é um verdadeiro espetáculo de cores, sabores e tradições. As exposições de flores encantam os visitantes com arranjos artísticos, jardins temáticos e cenários cuidadosamente preparados, que valorizam a beleza e a delicadeza da natureza.</p>
+    </div>
+  </div>
+</div>
+
+
+
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      const containers = document.querySelectorAll('.container');
+      containers.forEach((container, i) => {
+        setTimeout(() => {
+          container.classList.add('entrar');
+        }, i * 200); // animação em cascata
+      });
+    });
+  </script>
+
+
+</body>
+</html>
